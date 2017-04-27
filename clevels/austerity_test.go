@@ -1,4 +1,4 @@
-package unilog
+package clevels
 
 import (
 	"os"
