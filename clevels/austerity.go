@@ -63,7 +63,7 @@ func (a AusterityLevel) AusterityLevel() string {
 // lines before the change takes effect.
 const AusterityBuffer = 100
 
-var CacheInterval = 300 * time.Millisecond
+var CacheInterval = 30 * time.Second
 
 // To determine the current austerity level, read from SystemAusterityLevel.
 // Austerity is updated according to CacheInterval,
